@@ -24,9 +24,9 @@ tweet_chain = tweet_prompt | gemini_model
 #-------------------------------Streamlit UI------------------------
 
 st.html(
-    "<div>
-        <image style="width:50%" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/934px-Logo_of_Twitter.svg.png"></image>
-    </div>")
+    '<div>
+        <image style="width:50%" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/934px-Logo_of_Twitter.svg.png"/>
+    </div>')
 st.header("Tweet Generator - this is a new change")
 st.subheader("Generate tweets using Generative AI")
 language = st.selectbox("Pick one", ["hindi", "english"])
